@@ -8,7 +8,7 @@ namespace ex_upload_image_azure_storage.Services
 {
     public class FileUpload
     {
-        private const string connectionString = "DefaultEndpointsProtocol=https;AccountName=ckdatademo;AccountKey=+agyXhFXsy6EMMD8fCoKCxk7eBVNgMUqo558CopgA5eJKkPbX1gvNQR48/w0YT4urn/Oil0tOstbILAKtT6NmQ==;EndpointSuffix=core.windows.net";
+        private const string connectionString = "connection string azure";
         private const string container = "ckdata-container";
         public static async Task<string> UploadBase64Image(string base64Image)
         { 

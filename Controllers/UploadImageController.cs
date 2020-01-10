@@ -34,7 +34,6 @@ namespace ex_upload_image_azure_storage.Controllers
 
                 return StatusCode(200, result);
 
-                //return CreatedAtAction(nameof(GetById), new { id = entity.ProductId }, entity);
             }
             catch (Exception)
             {
